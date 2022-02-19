@@ -442,19 +442,19 @@ textarea {
 }
 
 .tile--1 {
-  background: #e2b831;
+  background: #0f74c4;
 }
 
 .tile--2 {
-  background: #f1c634;
+  background: #2f96f6;
 }
 
 .tile--3 {
-  background: #f5d654;
+  background: #4f98f8;
 }
 
 .tile--4 {
-  background: #f9e79b;
+  background: #4f9fff;
 }
 
 .tile__title {
@@ -490,7 +490,7 @@ textarea {
   width: auto;
 }
 .btn--welcome:hover {
-  background-color: #f1c634;
+  background-color: #2f96f6;
 }
 
 .cta__btn--welcome {
@@ -500,7 +500,7 @@ textarea {
   text-decoration: none;
   color: #111;
   letter-spacing: 3px;
-  background-color: #e2b831;
+  background-color: #0f74c4;
 }
 .cta__btn--welcome::before {
   content: "czytaj więcej";
@@ -521,11 +521,12 @@ textarea {
 .cta__btn--tile {
   font-size: 1em;
   font: normal normal 1em "Open Sans", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: #111;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: #aabec8;
 }
 .cta__btn--tile::before {
   content: "więcej";
@@ -659,28 +660,25 @@ textarea {
     width: 1088px;
   }
 }
-.welcome .person {
-  margin: 1.5rem;
-}
 @media (min-width: 1025px) {
-  .welcome .person {
-    align-self: flex-end;
+  .welcome .logo {
+    align-self: center;
     margin: 0;
   }
 }
-.welcome .person .responsive {
+.welcome .logo .responsive {
   max-width: 45%;
   height: auto;
 }
 @media (min-width: 558px) and (max-width: 1024px) {
-  .welcome .person .responsive {
+  .welcome .logo .responsive {
     margint-top: 5rem;
     max-width: 55%;
     height: auto;
   }
 }
 @media (min-width: 1025px) {
-  .welcome .person .responsive {
+  .welcome .logo .responsive {
     max-width: 100%;
     height: auto;
   }
@@ -688,6 +686,7 @@ textarea {
 .welcome .about {
   max-width: 600px;
   text-align: left;
+  color: #aabec8;
 }
 @media (min-width: 558px) and (max-width: 1024px) {
   .welcome .about {
@@ -725,7 +724,7 @@ textarea {
 }
 
 .services {
-  background: #e2b831;
+  background: #0f74c4;
 }
 .services .services__wrapper {
   margin: 0 auto;
@@ -834,7 +833,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #e2b831;
+  background: #0f74c4;
 }
 .contact__wrapper .contact__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;
@@ -870,7 +869,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #333;
+  background: #3c3c3f;
   color: #fff;
   margin: 0 auto;
   min-height: 350px;
@@ -918,6 +917,6 @@ body {
 }
 
 .wrapper {
-  background: #f2f2f2;
+  background: #1a1a1e;
 }
 /*# sourceMappingURL=main.css.map */
