@@ -36,4 +36,4 @@ function reload(done) {
 }
 
 exports.sass = gulp.parallel(compileSass);
-exports.default = gulp.parallel(compileSass, watcher)
+exports.default = gulp.parallel(compileSass, watcher);
