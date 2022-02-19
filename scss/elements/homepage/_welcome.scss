@@ -1,0 +1,65 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1088px;
+  }
+
+  .person {
+    margin: 1.5rem;
+
+    @include desktop {
+      align-self: flex-end;
+      margin: 0;
+    }
+
+    .responsive {
+      max-width: 45%;
+      height: auto;
+
+      @include tablet {
+        max-width: 55%;
+        height: auto;
+      }
+
+      @include desktop {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .about {
+    max-width: 600px;
+    text-align: left;
+
+    @include tablet {
+      margin: 3rem;
+    }
+
+    @include desktop {
+      margin-left: 4rem;
+    }
+
+    .about__me {
+      font: normal 700 1.5em $main-font-2;
+      text-transform: uppercase;
+      margin: 1rem;
+    }
+
+    .about__title {
+      font: normal 700 3.5em $main-font-1;
+      text-transform: uppercase;
+      margin: 0 1rem;
+    }
+
+    .about__descryption {
+      font: italic 400 1.5em $main-font-3;
+      font-size: 1em;
+      margin: 1rem 1rem;
+    }
+  }
+}
