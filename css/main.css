@@ -667,19 +667,13 @@ textarea {
   }
 }
 .welcome .logo .responsive {
-  max-width: 45%;
+  width: 100%;
   height: auto;
 }
 @media (min-width: 558px) and (max-width: 1024px) {
   .welcome .logo .responsive {
     margint-top: 5rem;
     max-width: 55%;
-    height: auto;
-  }
-}
-@media (min-width: 1025px) {
-  .welcome .logo .responsive {
-    max-width: 100%;
     height: auto;
   }
 }
