@@ -829,6 +829,9 @@ textarea {
   align-items: center;
   background: #0f74c4;
 }
+.contact__wrapper .contact__list {
+  line-height: normal;
+}
 .contact__wrapper .contact__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;
   text-transform: uppercase;
