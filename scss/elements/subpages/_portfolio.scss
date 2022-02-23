@@ -1,0 +1,18 @@
+.wrap {
+  background: $--bg-tile-1;
+
+  .portfolio__title {
+    font: normal 700 3.5em $main-font-1;
+    text-transform: uppercase;
+    margin: 3rem 1rem;
+    text-align: center;
+  }
+}
+
+.portfolio__item {
+  text-align: center;
+}
+
+.tile__portfolio {
+  background: $--bg-tile-1;
+}
