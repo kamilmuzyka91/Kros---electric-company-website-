@@ -723,6 +723,21 @@ textarea {
 .services .services__wrapper {
   margin: 0 auto;
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0f74c4;
+}
+@media (max-width: 557px) {
+  .services .services__wrapper {
+    width: 100vw;
+  }
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .services .services__wrapper {
+    margint-top: 5rem;
+    width: 100vw;
+  }
 }
 .services .services__wrapper .services__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;

@@ -4,6 +4,18 @@
   .services__wrapper {
     margin: 0 auto;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $--bg-tile-1;
+
+    @include mobile {
+      width: 100vw;
+    }
+
+    @include tablet {
+      width: 100vw;
+    }
 
     .services__title {
       font: normal 700 3.5em $main-font-1;
