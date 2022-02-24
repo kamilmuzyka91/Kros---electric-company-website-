@@ -760,29 +760,74 @@ textarea {
 
 .wrap {
   background: #0f74c4;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.wrap .portfolio__title {
-  font: normal 700 3.5em "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  margin: 3rem 1rem;
-  text-align: center;
-}
-.wrap .portfolio__item {
-  text-align: center;
-  margin: 0 auto;
-}
 .wrap .tile__portfolio {
   background: #0f74c4;
-  max-width: 600px;
+  max-width: 60em;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 557px) {
   .wrap .tile__portfolio {
     max-width: 100%;
   }
+}
+.wrap .tile__portfolio .descryption__title {
+  font: bold 300 2.25em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  max-width: 400px;
+}
+@media (max-width: 557px) {
+  .wrap .tile__portfolio .descryption__title {
+    font: bold 300 1.25em "Roboto Condensed", sans-serif;
+  }
+}
+.wrap .portfolio__title {
+  font: normal 700 3.5em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 2rem 1rem;
+  text-align: center;
+}
+@media (max-width: 557px) {
+  .wrap .portfolio__title {
+    font: normal 700 2.5em "Roboto Condensed", sans-serif;
+  }
+}
+.wrap .portfolio__item {
+  font: normal 500 1.2em "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .wrap .portfolio__item {
+    margint-top: 5rem;
+    font: normal 500 1.2em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 557px) {
+  .wrap .portfolio__item {
+    font: normal 500 1em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+  }
+}
+.wrap .portfolio__item .descryption__small {
+  font: italic 400 1em "Open Sans", sans-serif;
+}
+.wrap .portfolio__item .portfolio__accent {
+  font-weight: bold;
+  padding: 2em;
 }
 
 .contact__wrapper {
