@@ -34,7 +34,11 @@
         font: normal 500 1.2em $main-font-1;
         letter-spacing: 0.04em;
         line-height: 1.5em;
-        margin: 1.5rem;
+        margin: 1rem;
+      }
+
+      span {
+        font-weight: bold;
       }
     }
 
