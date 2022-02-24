@@ -1,0 +1,42 @@
+.wrap {
+  background: $--bg-tile-1;
+  max-width: 100%;
+  padding: 3rem;
+
+  .supervision__wrapper {
+    text-align: left;
+
+    .supervision__title {
+      font: normal 700 3.5em $main-font-1;
+      text-transform: uppercase;
+      margin: 2rem 1rem;
+      text-align: center;
+
+      @include mobile {
+        font: normal 700 2.5em $main-font-1;
+      }
+    }
+
+    .supervision__description {
+      font: normal 500 1.2em $main-font-1;
+      letter-spacing: 0.1em;
+      line-height: 1.5em;
+      max-width: 60rem;
+      margin: 0 auto;
+
+      @include tablet {
+        font: normal 500 1.2em $main-font-1;
+        letter-spacing: 0.04em;
+        line-height: 1.5em;
+        margin: 1.5rem;
+      }
+
+      @include mobile {
+        font: normal 500 1.2em $main-font-1;
+        letter-spacing: 0.04em;
+        line-height: 1.5em;
+        margin: 1rem;
+      }
+    }
+  }
+}
