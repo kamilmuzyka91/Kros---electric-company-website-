@@ -866,7 +866,7 @@ textarea {
 }
 @media (max-width: 557px) {
   .wrap .projects__wrapper .procjects__description {
-    font: normal 500 1em "Roboto Condensed", sans-serif;
+    font: normal 500 1.2em "Roboto Condensed", sans-serif;
     letter-spacing: 0.04em;
     line-height: 1.5em;
     margin: 1.5rem;
