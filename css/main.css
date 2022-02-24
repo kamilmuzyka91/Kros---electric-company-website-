@@ -830,6 +830,71 @@ textarea {
   padding: 2em;
 }
 
+.wrap {
+  background: #0f74c4;
+  max-width: 100%;
+  padding: 3rem;
+}
+.wrap .projects__wrapper {
+  text-align: left;
+}
+.wrap .projects__wrapper .projects__title {
+  font: normal 700 3.5em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 2rem 1rem;
+  text-align: center;
+}
+@media (max-width: 557px) {
+  .wrap .projects__wrapper .projects__title {
+    font: normal 700 2.5em "Roboto Condensed", sans-serif;
+  }
+}
+.wrap .projects__wrapper .procjects__description {
+  font: normal 500 1.2em "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .wrap .projects__wrapper .procjects__description {
+    margint-top: 5rem;
+    font: normal 500 1.2em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 557px) {
+  .wrap .projects__wrapper .procjects__description {
+    font: normal 500 1em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    margin: 1.5rem;
+  }
+}
+.wrap .projects__wrapper .projects__item {
+  font: normal 500 1.2em "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .wrap .projects__wrapper .projects__item {
+    margint-top: 5rem;
+    font: normal 500 1.2em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 557px) {
+  .wrap .projects__wrapper .projects__item {
+    font: normal 500 1em "Roboto Condensed", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+  }
+}
+
 .contact__wrapper {
   display: flex;
   flex-direction: column;
