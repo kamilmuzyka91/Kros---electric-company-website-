@@ -709,55 +709,6 @@ textarea {
   margin: 1rem 1rem;
 }
 
-.services__tile {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: #111;
-  padding-bottom: 4rem;
-}
-
-.services {
-  background: #0f74c4;
-}
-.services .services__wrapper {
-  margin: 0 auto;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #0f74c4;
-}
-@media (max-width: 557px) {
-  .services .services__wrapper {
-    width: 100vw;
-  }
-}
-@media (min-width: 558px) and (max-width: 1024px) {
-  .services .services__wrapper {
-    margint-top: 5rem;
-    width: 100vw;
-  }
-}
-.services .services__wrapper .services__title {
-  font: normal 700 3.5em "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
-  padding: 3rem 1rem;
-}
-.services .services__wrapper .services__tile {
-  display: block;
-  padding: 2rem;
-}
-.services .services__wrapper .services__tile .services__list {
-  font: italic 400 1em "Open Sans", sans-serif;
-  margin: 1.5rem;
-}
-.services .services__wrapper .services__tile .services__list .services__list__item {
-  line-height: 2rem;
-}
-
 .wrap {
   background: #0f74c4;
   max-width: 100%;
@@ -887,7 +838,7 @@ textarea {
     margint-top: 5rem;
     font: normal 500 1.2em "Roboto Condensed", sans-serif;
     letter-spacing: 0.04em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     margin: 1.5rem;
   }
 }
@@ -895,7 +846,7 @@ textarea {
   .wrap .projects__wrapper .projects__item {
     font: normal 500 1em "Roboto Condensed", sans-serif;
     letter-spacing: 0.04em;
-    line-height: 1.5em;
+    line-height: 1.3em;
   }
 }
 
