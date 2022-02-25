@@ -709,6 +709,14 @@ textarea {
   margin: 1rem 1rem;
 }
 
+.services__tile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #111;
+  padding-bottom: 4rem;
+}
+
 .wrap {
   background: #0f74c4;
   max-width: 100%;
