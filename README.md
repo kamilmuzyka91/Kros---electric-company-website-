@@ -4,6 +4,8 @@ KROS Electric company website - this is simple company website
 
 ### See the page https://kros-wroclaw.pl
 
+---
+
 ## What I use ?
 
 - Mobile first (RWD)
@@ -12,8 +14,16 @@ KROS Electric company website - this is simple company website
 - Google font & font-awesome
 - Gulp
 
+---
+
 ## If you want to clone then:
 
 - clone repo to your machine
 - run `npm i`
 - to start dev server, `run npm start`
+
+---
+
+## How this look ?
+
+![IMG](./assets/kros.png)
